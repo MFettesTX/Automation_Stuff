@@ -1,5 +1,5 @@
 # Automation_Stuff
-Just some items I worked on at a previous employer
+Just some items I worked on
 
 
 I changed all of the project-specific stuff to [REDACTED] because they're not really relevant. 
