@@ -1,18 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using TxDOTAutomation.Base;
-using TxDOTAutomation.Helpers;
-using TxDOTAutomation.Pages.GenericPages;
-using TxDOTAutomation.Pages.LibraryPages;
-using static TxDOTAutomation.Base.Browser;
+using [REDACTED].Base;
+using [REDACTED].Helpers;
+using [REDACTED].Pages.GenericPages;
+using [REDACTED].Pages.LibraryPages;
+using static [REDACTED].Base.Browser;
 
-namespace TxDOTTest.TestCases.Library
+namespace [REDACTED].TestCases.Library
 {
     [TestClass]
     public class _TC_8605_2 : Base
     {
-        string url = "https://phase1atxdotauto.masterworkslive.com/Modules/USRMGMT/Login.aspx";
-        //string url = "https://txdotqaphase2.masterworkslive.com/";
+        string url = "[REDACTED]/Modules/USRMGMT/Login.aspx";
+        //string url = "https://[REDACTED]";
 
         /// <summary>
         /// Test method to create a new District.
