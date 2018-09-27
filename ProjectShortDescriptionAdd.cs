@@ -38,7 +38,7 @@ namespace [REDACTED].TestCases.Library
                 //LogHelpers.Write("Opening the Chrome Browser");
                 DriverContext.Browser.GoToUrl(url);
                 CurrentPage = GetInstance<LoginPage>();
-                //CurrentPage = CurrentPage.As<LoginPage>().Login("Administrator", "[REDACTED]");
+                //CurrentPage = CurrentPage.As<LoginPage>().Login("[REDACTED]", "[REDACTED]");
                 CurrentPage = CurrentPage.As<LoginPage>().Login(ExcelHelpers.ReadData(1, "UserName"), ExcelHelpers.ReadData(1, "Password"));
                 CurrentPage.As<LeftMenuBar>().ClickLibrary();
                 CurrentPage = CurrentPage.As<LeftMenuBar>().ClickExpandTree();
